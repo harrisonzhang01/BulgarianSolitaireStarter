@@ -21,10 +21,20 @@ public class Piles
          avoid a situation like  1 1 3 4 5 6 7 8 10  which means we
          still aren't done.
       */
-      . . .
-
-
-
+      int[] check = new int[9];
+      for(int i = 0; i < piles.size(); i++){
+          int num = piles.get(i);
+          if(num > 9){
+              return false;
+          }
+          check[num-1]++;
+      }
+      for(int i = 0; i < check.length; i++){
+          if(check[i] != 1){
+              return false;
+          }
+      }
+      return true;
    }
 
    private ArrayList<Integer> piles;
@@ -73,5 +83,15 @@ public class Piles
    public void playRound()
    {
 	   // insert your code for ver 1
+	   int count = 0;
+          for(int i = 0; i < piles.size(); i++){
+              piles.set(i, piles.get(i)-1);
+              if(piles.get(i) == 0){
+                  piles.remove(i);
+                  i--;
+              }
+              count++;
+          }
+          piles.add(count);
    }
 }

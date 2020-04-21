@@ -23,9 +23,13 @@ public class Piles
     * Return the string representation of the piles.
     * @return the string representation of the piles.
     */
-   public String toString()
-   {
-      . . .
+   public String toString(){
+       String str = "";
+       for (int i = 0; i < piles.size()-1; i++){
+          str += piles.get(i) + ", ";
+       }
+       str += piles.get(piles.size()-1);
+       return str;
    }
 
    /**
@@ -33,6 +37,15 @@ public class Piles
    */
    public void playRound()
    {
-      . . .
+      int count = 0;
+      for(int i = 0; i < piles.size(); i++){
+          piles.set(i, piles.get(i)-1);
+          if(piles.get(i) == 0){
+              piles.remove(i);
+              i--;
+          }
+          count++;
+      }
+      piles.add(count);
    }
 }
