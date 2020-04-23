@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Invoice
+comment1.params=
+comment1.target=Invoice()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Invoice\n
+comment2.params=anitem
+comment2.target=void\ add(Item)
+comment2.text=\n\ Adds\ another\ item\ to\ invoice\n\ @param\ Item\n\ @return\ void\n
+comment3.params=
+comment3.target=double\ getDiscount()
+comment3.text=\n\ returns\ the\ amount\ of\ money\ that\ is\ discounted\n\ @return\ double\n
+numComments=4

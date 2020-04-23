@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\n\ Harrison\ Zhang\n\ Item\ Class\n\ Creates\ all\ the\ necessary\ functions\ to\ suit\ a\ pet\ shop's\ purpose\n
+comment1.params=price\ isPet\ quantity
+comment1.target=Item(double,\ boolean,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Item\n
+comment2.params=
+comment2.target=double\ getCost()
+comment2.text=\n\ returns\ cost\ of\ item\n\ @return\ double\n
+comment3.params=
+comment3.target=boolean\ getPet()
+comment3.text=\n\ returns\ whether\ it\ is\ a\ pet\ or\ not\ \n\ @return\ boolean\n
+comment4.params=
+comment4.target=int\ getQuant()
+comment4.text=\n\ returns\ quantity\ bought\n\ @return\ int\n
+numComments=5

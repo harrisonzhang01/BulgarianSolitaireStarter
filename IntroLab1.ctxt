@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=IntroLab1
+comment0.text=\n\ Harrison\ Zhang\n\ Intro\ Lab\ 1\ -\ Pair/Share\ (no\ partner)\n\ Write\ 5\ recursion\ functions\n
+comment1.params=
+comment1.target=IntroLab1()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ IntroLab1\n
+comment2.params=n
+comment2.target=java.lang.String\ nToZero(int)
+comment3.params=n
+comment3.target=java.lang.String\ zeroToN(int)
+comment4.params=str
+comment4.target=java.lang.String\ reverse(java.lang.String)
+comment5.params=n\ k
+comment5.target=boolean\ prime(int,\ int)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

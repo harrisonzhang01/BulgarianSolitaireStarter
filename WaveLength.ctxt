@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WaveLength
+comment1.params=
+comment1.target=WaveLength()
+comment2.params=values\ valueSizes
+comment2.target=void\ smooth(double[],\ int)
+comment2.text=\n\ \ \ \ \ \ Smoothes\ out\ an\ array\ by\ averaging\ values\ with\ its\ neighbors.\n\ \ \ \ \ \ @param\ values\ an\ array\n\ \ \ \ \ \ @param\ size\ the\ number\ of\ elements\ in\ values\n\ \ \ \ \ \ @return\ void\n
+comment3.params=a
+comment3.target=void\ print(double[])
+comment3.text=\n\ \ \ \ \ \ Prints\ an\ array.\n\ \ \ \ \ \ @param\ a\ an\ array\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
